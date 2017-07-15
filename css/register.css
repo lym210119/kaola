@@ -1,0 +1,105 @@
+body{
+	background: #efefef;
+}
+.register{
+	width: 1000px;
+	margin: 0 auto;
+}
+.reg-top{
+	height: 130px;
+}
+.reg-top .logo{
+	float: left;
+	margin-top: 42px;
+}
+.reg-top div{
+	float: right;
+	font-size: 18px;
+	margin-top: 50px;
+}
+.reg-top div a{
+	color: #ca5252;
+}
+.reg-warp{
+	background: #fff;
+	border-radius: 6px;
+	overflow: hidden;
+	height: 500px;
+}
+.reg-warp div{
+	width: 1000px;
+}
+.reg-warp div.username{
+	margin-top: 50px;
+	height: 80px;
+}
+.reg-warp div.password{
+	height: 80px;
+}
+.reg-warp div label{
+	float: left;
+	width: 340px;
+	text-align: right;
+	font-size: 16px;
+	line-height: 45px;
+	margin-top: 16px;
+}
+.reg-warp div input.text{
+	float: left;
+    height: 44px;
+    width: 320px;
+    margin-top: 16px;
+    border: solid 1px #ddd;
+    font-size: 16px;
+    text-indent: 0.5em;
+}
+.reg-warp div span.error{
+	float: left;
+	font-size: 12px;
+	color: #fa5b5b;
+	line-height: 80px;
+	margin-left: 20px;
+	display: none;
+}
+.reg-warp .reg-btn-info{
+	margin-top: 20px;
+}
+.reg-warp .reg-btn-info .reg-btn{
+	background: #ca5252;
+	width: 322px;
+	height: 46px;
+	border: 0;
+	font-size: 18px;
+	color: #fff;
+	font-weight: bold;
+	line-height: 46px;
+	cursor: pointer;
+}
+.reg-warp .reg-btn-info span{
+	display: block;
+	width: 322px;
+	height: 40px;
+	margin: 0 auto;
+	margin-top: 10px;
+	color: #b1b1b1;
+	font-size: 12px;
+}
+.reg-warp .reg-btn-info span input{
+	margin-right: 10px;
+}
+.reg-foot{
+	width: 100%;
+}
+.reg-foot .foot-in{
+	width: 1000px;
+	margin: 0 auto;
+}
+.reg-foot .foot-in .foot-cp{
+	padding: 30px 0;
+}
+.reg-foot .foot-in .foot-cp p{
+	font-size: 12px;
+	color: #b1b1b1;
+	text-align: center;
+	line-height: 25px;
+}

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<style>
+		      html,body {
+        height: 100%;
+      }
+      #addUserAddress {
+        cursor: pointer;
+      }
+      #addUserAddress:hover {
+        background: black;
+        color: white;
+      }
+      .address-item {
+        border: 1px solid coral;
+        cursor: pointer;
+      }
+      .address-item:hover {
+        background: black;
+        color: white;
+      }
+      .layer {
+        display: none;
+        background: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+      }
+      .dialog {
+        width: 600px;
+        height: 500px;
+        margin: 10px auto;
+        border: 1px solid gray;
+        text-align: center;
+        background: white;
+      }
+      .dialog h2 {
+        line-height: 30px;
+        text-align: left;
+        border-bottom: 1px solid gray;
+      }
+      .dialog h2 span {
+        display: inline-block;
+        float: right;
+        padding: 0px 10px;
+        background: orange;
+        cursor: pointer;
+      }
+
+      .normal {
+        border: 1px solid gray;
+        padding: 2px 5px;
+        text-align: center;
+        cursor: pointer;
+      }
+      .normal:hover {
+        background: black;
+        color: white;
+      }
+      .selected {
+        border: 1px solid red;
+      }
+	</style>
+</head>
+<body>
+    <div class="header">
+        <div class="head-img">
+            <a href="#"><img src="img/1.jpg" alt=""></a>
+        </div>
+        <div class="head-nav">
+            <div class="nav">
+                <div class="login-reg fl">
+                    <span>考拉欢迎您！</span>
+                    <a href="login.html" class="login-btn">登录</a>
+                    <a href="register.html" class="reg-btn">免费注册</a>
+                </div>
+                <ul id="nav-list" class="nav-list fr"></ul>
+            </div>
+        </div>
+        <div class="head-search">
+            <div class="search">
+                <a href="index.html" class="fl"><img src="img/2.png" alt=""></a>
+                <div class="search-box">
+                    <span class="fl"></span>
+                    <input type="text" placeholder="热气球" id="search-text">
+                    <a id="search-btn"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <h1>结算页面</h1>
+        <div id="address"></div>
+        <span id="addUserAddress">新增收货人信息</span>
+        <span id="total">总计：</span>
+        <span id="order">下订单</span>
+        <div class="layer">
+            <div class="dialog">
+                <h2>新增收货人信息<span>x</span></h2>
+                <form>
+                    收货人名称：
+                    <input type="text" name="address_name" value="关老师">
+                    <br />
+                    <!-- 名称：<input type="text" name="consignee" value="2"><br /> -->
+                    <!-- 名称：<input type="text" name="country" value="3"><br /> -->
+                    省：
+                    <input type="text" name="province" value="北京">
+                    <br /> 市：
+                    <input type="text" name="city" value="北京">
+                    <br /> 区：
+                    <input type="text" name="district" value="石景山">
+                    <br /> 地址：
+                    <input type="text" name="address" value="实兴东街">
+                    <br />
+                    <!-- 邮编：<input type="text" name="zip_code" value="7"><br /> -->
+                    手机号：
+                    <input type="text" name="mobile" value="18518361921">
+                    <br />
+                    <!-- 名称：<input type="text" name="email" value="9"><br /> -->
+                    <!-- 名称：<input type="text" name="tel" value="11"><br /> -->
+                    <!-- 名称：<input type="text" name="besttime" value="12"><br /> -->
+                    <!-- 名称：<input type="text" name="sign_building" value="13"><br /> -->
+                    <input type="button" id="add" name="" value="添加收货地址">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="foot-hot">
+            <div class="hot-more">
+                <a href="#"><img src="img/15.jpg" alt=""></a>
+                <a href="#"><img src="img/14.jpg" alt=""></a>
+            </div>
+        </div>
+        <div class="foot-about">
+            <div class="about">
+                <div class="about-goods">
+                    <ul>
+                        <li>
+                            <i class="sprite icon-one"></i>
+                            <span>100%正品</span>
+                            <p>正品保障 假一赔十</p>
+                        </li>
+                        <li>
+                            <i class="sprite icon-two"></i>
+                            <span>低价保障</span>
+                            <p>缩减中间环节 确保低价</p>
+                        </li>
+                        <li>
+                            <i class="sprite icon-three"></i>
+                            <span>30天无忧退货</span>
+                            <p>国内退货 售后无忧</p>
+                        </li>
+                        <li>
+                            <i class="sprite icon-four"></i>
+                            <span>满88包邮</span>
+                            <p>部分特殊商品除外</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="about-me">
+                    <ul>
+                        <li class="about-frist">
+                            <a href="#"><img src="img/2.png" alt=""></a>
+                            <div>
+                                <span>关注我们</span>
+                                <em class="sprite icon-weibo"></em>
+                                <em class="sprite icon-weixin"></em>
+                                <em class="sprite icon-qq"></em>
+                            </div>
+                        </li>
+                        <li class="about-txt">
+                            <h3>考拉保障</h3>
+                            <ul>
+                                <li><a href="#">假一赔十</a></li>
+                                <li><a href="#">廉正监督</a></li>
+                            </ul>
+                        </li>
+                        <li class="about-txt">
+                            <h3>新手指南</h3>
+                            <ul>
+                                <li><a href="#">购物流程</a></li>
+                                <li><a href="#">支付方式</a></li>
+                                <li><a href="#">通关税费</a></li>
+                                <li><a href="#">常见问题</a></li>
+                            </ul>
+                        </li>
+                        <li class="about-txt">
+                            <h3>售后服务</h3>
+                            <ul>
+                                <li><a href="#">退货政策</a></li>
+                                <li><a href="#">退货流程</a></li>
+                                <li><a href="#">退款说明</a></li>
+                                <li><a href="#">联系客服</a></li>
+                            </ul>
+                        </li>
+                        <li class="about-txt">
+                            <h3>物流配送</h3>
+                            <ul>
+                                <li><a href="#">配送方式</a></li>
+                                <li><a href="#">配送服务</a></li>
+                                <li><a href="#">运费标准</a></li>
+                                <li><a href="#">物流跟踪</a></li>
+                            </ul>
+                        </li>
+                        <li class="about-txt">
+                            <h3>关于我们</h3>
+                            <ul>
+                                <li><a href="#">联系我们</a></li>
+                                <li><a href="#">招商合作</a></li>
+                                <li><a href="#">销售联盟</a></li>
+                                <li><a href="#">CEO邮箱</a></li>
+                            </ul>
+                        </li>
+                        <li class="about-last">
+                            <ul>
+                                <li>
+                                    <a href="#"><img src="img/8.png" alt=""></a>
+                                    <p>考拉联合凤凰知音</p>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/13.jpg" alt=""></a>
+                                    <p>扫描下载手机版</p>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="foot-info">
+            <div class="about-info">
+                <p>About NetEase - 公司简介 - 联系方法 - 友情链接 - 招聘信息 - 客户服务 - 隐私政策 - 网络营销 - 网站地图 - 网易考拉海购 </p>
+                <p>网络文化经营许可证：浙网文[2016]0155-055号&nbsp;&nbsp;&nbsp;&nbsp;增值电信业务经营许可证：浙B2-20090185-3 &nbsp;&nbsp;&nbsp;&nbsp;出版物经营许可证：新出发浙杭经零字第00136号&nbsp;&nbsp;&nbsp;&nbsp; 自营经营者信息 </p>
+                <p><img src="img/9.png" alt="">浙公网安备 33010002000066号 网易公司版权所有©1997-2017 </p>
+                <p class="icon-info">
+                    <img src="img/10.png" class="info-one" alt="">
+                    <img src="img/1.gif" class="info-two" alt="">
+                </p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript" src="js/checkout.js"></script>
+</body>
+
+</html>

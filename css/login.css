@@ -1,0 +1,206 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.head{
+	width: 100%;
+	overflow: hidden;
+	border: 1px solid #e8e8ea;
+}
+.head .head-top{
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.head .head-top .left{
+	float: left;
+	margin: 29px 0;
+}
+.head .head-top .right{
+	float: right;
+}
+.warp{
+	width: 100%;
+	background: #f8f8f8;
+	overflow: hidden;
+}
+.warp .login-warp{
+	width: 1000px;
+	margin: 90px auto;
+	overflow: hidden;
+}
+.warp .login-warp .warp-img{
+	float: left;
+	margin-left: 15px;
+	margin-top: 70px;
+}
+.warp .login-warp .login-box{
+	float: right;
+	width: 500px;
+	overflow: hidden;
+	margin-right: 15px;
+}
+.warp .login-warp .login-box .login-form{
+	float: left;
+	width: 350px;
+	border: 1px solid #eaeaea;
+	background: #fff;
+}
+.warp .login-warp .login-box .login-form h2{
+	font-size: 18px;
+	font-weight: bold;
+	color: #333;
+	padding: 27px 40px 10px;
+}
+.warp .login-warp .login-box .login-form strong{
+	font-size: 12px;
+	color: #fa5b5b;
+	margin: 0 40px;
+	display: none;
+}
+.warp .login-warp .login-box .login-form p{
+	margin: 10px 40px;
+	line-height: 34px;
+}
+.warp .login-warp .login-box .login-form p.log-icon{
+	height: 34px;
+	border: 1px solid #c5cddb;
+}
+.warp .login-warp .login-box .login-form p.log-icon span{
+	float: left;
+	background: url("../img/12.png") no-repeat;
+	margin: 9px 10px;
+}
+.warp .login-warp .login-box .login-form p.log-icon .un-i{
+	width: 18px;
+	height: 16px;
+	background-position: 0 0;
+}
+.warp .login-warp .login-box .login-form p.log-icon .psd-i{
+	width: 18px;
+	height: 16px;
+	background-position: 0 -31px;
+}
+.warp .login-warp .login-box .login-form p.log-icon input{
+	float: left;
+	width: 228px;
+	height: 32px;
+	border: none;
+	font-size: 14px;
+	font-weight: normal;
+	border-left: 1px solid #c5cddb;
+	margin-top: 1px;
+	text-indent: 10px;
+}
+.warp .login-warp .login-box .login-form p.no-log{
+	overflow: hidden;
+}
+.warp .login-warp .login-box .login-form p.no-log span{
+	float: left;
+	font-size: 12px;
+	color: #999;
+	line-height: 34px;
+}
+.warp .login-warp .login-box .login-form p.no-log span input{
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.warp .login-warp .login-box .login-form p.no-log a{
+	float: right;
+	font-size: 12px;
+	color: #999;
+}
+.warp .login-warp .login-box .login-form p.log-btn button{
+	width: 100%;
+	height: 44px;
+	line-height: 44px;
+	background: #e31436;
+	border: none;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	cursor: pointer;
+}
+.warp .login-warp .login-box .login-form p.reg-out{
+	font-size: 12px;
+	color: #333;
+	text-align: center;
+}
+.warp .login-warp .login-box .login-form ul{
+	border-top: 1px solid #eaeaea;
+	padding: 10px 0px 10px 29px;
+	overflow: hidden;
+}
+.warp .login-warp .login-box .login-form ul li{
+	float: left;
+	width: 43px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+}
+.warp .login-warp .login-box .login-form ul li.text{
+	width: 122px;
+	font-size: 12px;
+}
+.warp .login-warp .login-box .login-form ul li a{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url("../img/icon1.png") no-repeat;
+}
+.warp .login-warp .login-box .login-form ul li.zfb,.wb,.qq{
+	border-left: 1px solid #eaeaae;
+}
+.warp .login-warp .login-box .login-form ul li a.wx-icon{
+	background-position: -760px -276px;
+}
+.warp .login-warp .login-box .login-form ul li a.zfb-icon{
+	background-position: -760px -301px;
+}
+.warp .login-warp .login-box .login-form ul li a.wb-icon{
+	background-position: -760px -330px;
+}
+.warp .login-warp .login-box .login-form ul li a.qq-icon{
+	background-position: -760px -357px;
+}
+.warp .login-warp .login-box .ad-app{
+	float: left;
+	height: 348px;
+	border: 1px solid #eaeaea;
+	border-left: none;
+}
+.warp .login-warp .login-box .ad-app a img{
+	width: 100%;
+	height: 100%;
+}
+
+.footer{
+	width: 100%;
+}
+.footer .about-info{
+	width: 1000px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+.footer .about-info p{
+	height: 24px;
+	line-height: 24px;
+	font-size: 12px;
+	color: #333;
+	text-align: center;
+}
+.footer .about-info p img{
+	vertical-align: middle;
+}
+.footer .about-info p.icon-info{
+	margin-top: 10px;
+}
+
+.footer .about-info p img.info-one{
+	width: 80px;
+	height: 30px;
+}
+.footer .about-info p img.info-two{
+	width: 30px;
+	height: 30px;
+}

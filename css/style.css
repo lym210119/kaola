@@ -1,0 +1,282 @@
+/*公共样式*/
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+a{
+	color: #6c6c6c;
+	font-size: 14px;
+}
+.nav,.search,.main,.hot-more{
+	width: 1080px;
+	margin: 0 auto;
+}
+.sprite{
+	background: url("../img/icon1.png") no-repeat;
+}
+
+
+/*header*/
+.header .head-img{
+	width: 100%;
+	height: 80px;
+}
+.header .head-img a img{
+	width: 100%;
+	height: 80px;
+}
+.header .head-nav{
+	width: 100%;
+	height: 30px;
+	background: #f2f2f2;
+	line-height: 30px;
+}
+.header .head-nav .nav .login-btn{
+	color: #f40;
+	margin-right: 10px;
+}
+.header .head-nav .nav .reg-btn:hover{
+	color: #f40;
+}
+.header .head-nav .nav .nav-list li{
+	padding: 0 20px;
+}
+.header .head-nav .nav .nav-list li:hover{
+	background: #f40;
+	border-radius: 10px;
+	
+}
+.header .head-nav .nav .nav-list li:hover a{
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+}
+.header .head-search .search{
+	padding: 30px 0;
+}
+.header .head-search .search .search-box{
+	width: 500px;
+	height: 36px;
+	margin: 0 auto;
+	border: 2px solid #333;
+}
+.header .head-search .search .search-box span{
+	display: inline-block;
+	width: 38px;
+	height: 36px;
+	background: url("../img/3.png") no-repeat center; 
+}
+.header .head-search .search .search-box input{
+	border: 0;
+	width: 412px;
+	height: 36px;
+}
+.header .head-search .search .search-box a{
+	width: 50px;
+	height: 36px; 
+	background: url("../img/4.png") no-repeat center;
+	background-color: #333;
+	float: right;
+	cursor: pointer;
+}
+
+
+/*content*/
+.content{
+	overflow: hidden;
+}
+.content .goods{
+	overflow: hidden;
+}
+.content .goods ul{
+	overflow: hidden;
+}
+.content .goods ul li {
+  display: block;
+  float: left;
+  width: 240px;
+  height: 240px;
+  margin: 15px;
+  position: relative;
+}
+.content .goods ul li:hover .goods-info{
+    display: block;
+}
+.content .goods .goods-info{
+    width: 210px;
+    height: 210px;
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 15px;
+    background: rgba(0,0,0,.7);
+    display: none;
+}
+.goods ul li a img{
+    width: 100%;
+    height: 100%;
+}
+.goods-info .price{
+    color: #0c6eba;
+    font-size: 20px;
+    font-style: italic;
+}
+.goods-info .title{
+    margin: 65px auto;
+    text-align: center;
+    color: #fff;
+    width: 85%;
+    height: 25px;
+    line-height: 20px;
+    vertical-align: middle;
+    font-weight: bold;
+
+}
+
+
+/*footer*/
+
+.footer .foot-hot{
+	width: 100%;
+	background: #f3f3f3;
+	padding: 30px 0;
+}
+.footer .foot-about .about{
+	width: 1080px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.footer .foot-about .about .about-goods{
+	width: 1080px;
+	height: 45px;
+	padding: 40px 0;
+	border-bottom: 1px solid #eaeaea;
+	overflow: hidden;	
+}
+.footer .foot-about .about .about-goods ul li{
+	float: left;
+	width: 230px;
+	margin: 0 20px;
+}
+.footer .foot-about .about .about-goods ul li i{
+	float: left;
+	width: 44px;
+	height: 44px;
+	margin-right: 15px;
+}
+.footer .foot-about .about .about-goods ul li i.icon-one{
+	background-position: -751px 0;
+}
+.footer .foot-about .about .about-goods ul li i.icon-two{
+	background-position: -812px 0;
+}
+.footer .foot-about .about .about-goods ul li i.icon-three{
+	background-position: -873px 0;
+}
+.footer .foot-about .about .about-goods ul li i.icon-four{
+	background-position: -935px 0;
+}
+.footer .foot-about .about .about-goods ul li span{
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+}	
+.footer .foot-about .about .about-me{
+	width: 1080px;
+	overflow: hidden;
+	padding: 40px 0 50px 0;
+}
+.footer .foot-about .about .about-me ul li{
+	float: left;
+}
+.footer .foot-about .about .about-me ul li.about-frist{
+	width: 220px;
+	height: 98px;
+	margin: 15px 0;
+}
+.footer .foot-about .about .about-me ul li.about-frist a{
+	display: block;
+	margin-bottom: 20px;
+}
+.footer .foot-about .about .about-me ul li.about-frist div{
+	width: 192px;
+	height: 32px;
+	line-height: 32px;
+	padding: 0 14px;
+}
+.footer .foot-about .about .about-me ul li.about-frist div span{
+	font-size: 14px;
+	float: left;
+	line-height: 32px;
+}
+.footer .foot-about .about .about-me ul li.about-frist div em{
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	margin-left: 10px;
+}
+.footer .foot-about .about .about-me ul li.about-frist div em.icon-weibo{
+	background-position: -752px -69px;
+}
+.footer .foot-about .about .about-me ul li.about-frist div em.icon-weixin{
+	background-position: -796px -69px;
+}
+.footer .foot-about .about .about-me ul li.about-frist div em.icon-qq{
+	background-position: -840px -69px;
+}
+.footer .foot-about .about .about-me ul li.about-txt{
+	width: 83px;
+	height: 128px;
+	padding: 0 20px;
+	border-left: 1px solid #ddd; 
+	text-align: center;
+}
+.footer .foot-about .about .about-me ul li.about-txt h3{
+	font-size: 18px;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+.footer .foot-about .about .about-me ul li.about-txt ul li{
+	width: 83px;
+	text-align: center;
+}
+.footer .foot-about .about .about-me ul li.about-last ul li{
+	margin: 0 5px;
+}
+.footer .foot-about .about .about-me ul li.about-last ul li p{
+	font-size: 12px;
+	text-align: center;
+}
+.footer .foot-info{
+	width: 100%;
+	background: #333;
+}
+.footer .foot-info .about-info{
+	width: 1080px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+.footer .foot-info .about-info p{
+	height: 24px;
+	line-height: 24px;
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+}
+.footer .foot-info .about-info p img{
+	vertical-align: middle;
+}
+.footer .foot-info .about-info p.icon-info{
+	margin-top: 10px;
+}
+
+.footer .foot-info .about-info p img.info-one{
+	width: 80px;
+	height: 30px;
+}
+.footer .foot-info .about-info p img.info-two{
+	width: 30px;
+	height: 30px;
+}
